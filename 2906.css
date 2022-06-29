@@ -1,0 +1,26 @@
+.left{
+	float: left;
+	margin: 0 20px 0 20px;
+}
+
+.center{
+	float: left;
+	margin: 0 20px 0 20px;
+}
+
+.right{
+	float: left;
+	margin: 0 20px 0 20px;
+}
+
+p{
+	column-count: 3;
+	column-gap: 10px;
+	column-rule: 1px solid #666;
+	font-size: 0.9em;
+	width: 500px;
+}	
+
+br{
+	clear: both;
+}	
