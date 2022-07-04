@@ -74,3 +74,9 @@ footer{
 	float:left;
 	width:660px;
 }
+
+.mapa{
+	display: block;
+	border-style: solid;
+	margin: 0 auto;
+}	
