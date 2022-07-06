@@ -1,0 +1,22 @@
+.container{
+	max-width: 960px;
+	margin-top:15px;
+	margin-bottom:50px;
+}	
+
+img{
+	float: left;
+	margin-right: 15px;
+	height:200px;
+	border:1px solid grey;
+	box-shadow: -3px -3px 3px #AAA;
+
+}	
+
+iframe{
+	margin-left: 180px;
+}	
+
+h1{
+	
+}
