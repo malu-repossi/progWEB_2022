@@ -1,0 +1,59 @@
+.container{
+    width:800px;
+    margin:20px auto;
+    background-color:rgba(43, 224, 224, 0.904);
+    color:white;
+}
+
+.superior{
+    display:flex;
+    justify-content:right;
+    background-color:rgb(182, 234, 238);
+    font-size:22px;
+}
+
+.superior div{
+    margin: 10px 10px;
+    padding:2px 5px;
+}
+
+.superior .one{
+    margin: 10px 430px 10px 0;
+}
+
+.titulo{
+    display:flex;
+    justify-content: center;
+    margin:30px auto;
+    font-size:30px;
+}
+
+.conteudo{
+    display:flex;
+    flex-flow:row wrap;
+    width:500px;
+    height:500px;
+    justify-content: center;
+    margin:0 auto;
+    font-size:19px;
+}
+
+.conteudo div{
+    margin: 20px;
+}
+
+img{
+    width:100px;
+    height:150px;
+}
+
+a:hover{
+    background-color: rgb(56, 47, 102);
+    border-radius: 5px;
+    padding:2px 5px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
