@@ -1,0 +1,114 @@
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    margin:20px auto;
+    width:800px;
+    background-color:antiquewhite;
+}
+
+.superior{
+    display:grid;
+    grid-template-columns:auto auto;
+    background-color:aquamarine;
+    fazer space between de algum jeito
+}
+
+.superior .sup{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    margin:2px;
+    background-color: lightslategray;
+    width:300px;
+}
+.superior div{
+    margin:5px;
+    background-color:lightpink;
+}
+
+.conteudo{
+    width: 700px;
+    margin: 20px auto;
+    background-color:lightskyblue;
+    text-align:center;
+}
+
+.bloco1{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    background-color:aquamarine;
+
+}
+
+.bloco1 div{
+    margin:5px;
+    background-color: lightslategray;
+}
+
+.bloco2{
+    display:grid;
+    grid-template-columns:auto auto auto auto auto;
+    background-color:aquamarine;
+
+}
+
+.bloco2 div{
+    margin:5px;
+    background-color: lightslategray;
+
+}
+
+.bloco3{
+    display:inline-grid;
+    grid-template-columns:auto;
+    background-color:aquamarine;
+    width:267px;
+    height:300px;
+
+}
+.bloco3 div{
+    margin:5px;
+    background-color: lightslategray;
+
+}
+
+.bloco4{
+    display:inline-grid;
+    grid-template-columns: auto;
+    background-color:aquamarine;   
+    width:267px;
+    height:300px;
+}
+
+.bloco4 div{
+    margin:5px;
+    background-color: lightslategray;
+
+}
+
+.solitario1{
+    display:inline-grid;
+    grid-template-columns: auto;
+    background-color:aquamarine;
+    height:300px;
+    width:400px;
+}
+
+.solitario1 div{
+    margin:5px;
+    background-color: lightslategray;
+}
+
+.solitario2{
+    display:inline-grid;
+    grid-template-columns: auto;
+    background-color:aquamarine;
+    height:300px;
+    width:400px;
+}
+
+.solitario2 div{
+    margin:5px;
+    background-color: lightslategray;
+}
