@@ -1,0 +1,58 @@
+body{
+    width:60em;
+    margin:0 auto;
+    display: grid;
+    grid-template-areas: 
+    'header header header header header'
+    'menuu menuu menuu menuu related'
+    'news news news news related'
+    'footer footer footer footer related';
+}
+
+header{grid-area: header;}
+#menu{grid-area: menuu;}
+#related{grid-area: related;}
+#news{grid-area: news;}
+footer{grid-area: footer;}
+
+/* HEADER */
+header h2{
+    display: inline-block;
+    margin-right: 29em;
+}
+
+header #signup{
+    display: inline-block;
+}
+
+/* NAV */
+#menu ul{
+    display: flex;
+}
+
+#menu{
+    width: 48em;
+}
+
+/* ASIDE */
+#related{
+    width: 12em;
+    
+}
+/* SECTION */
+#news{
+    width: 47em;
+}
+
+#news img{
+    width:100%;
+}
+/* FOOTER */
+footer{
+    width: 47em;
+}
+
+/* 
+• Como usar grades CSS para posicionar elementos em uma página da web?
+• Como usar flexboxes para posicionar elementos em um contêiner? 
+*/

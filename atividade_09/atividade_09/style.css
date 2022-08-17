@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@100&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lora', 'Poppins', serif,  sans-serif;
+}
+
+body{
+    background-color: #EDEFF0;
+}
+
+/* HEADER */
+header{
+    background-color:  #046DD5;
+    padding: 1em;
+}
+
+header h1, h2{
+    margin:0.5em 1em;
+    padding: 0;
+}
+
+header h1{
+    margin: 0 0.5em;
+}
+
+header h2{
+    font-size:medium;
+}
+header a{
+    color:white;
+    text-decoration: none;
+    text-align: left;
+}
+
+#signup a{
+    padding: 0 1em;
+}
+
+#signup a:nth-child(1){
+    border-right: 0.1em solid white;
+}
+
+/* NAV */
+#menu{
+    background-color: white;
+}
+
+#hamburger {
+    display: none;
+}
+
+ul{
+    list-style-type: none; 
+    text-align: center;
+    padding: 0; 
+    margin: 0;
+    justify-items: stretch;
+}
+
+ul a:hover{
+    background-color: #2A2F33;
+    color: white;
+}
+
+li{
+    margin: auto;
+}
+
+li a{
+    text-decoration: none;
+    padding:0 2.02em;
+    color: black;
+    font-weight: bold;
+}
+
+ul li:nth-child(1){
+   border-top:0.5em solid #E1493E;
+}
+
+ul li:nth-child(2){
+    border-top:0.5em solid #8ABA56;
+    
+}
+
+ul li:nth-child(3){
+    border-top:0.5em solid #5B4282;
+    
+}
+
+ul li:nth-child(4){
+    border-top:0.5em solid #FF8932;
+    
+}
+
+ul li:nth-child(5){
+    border-top:0.5em solid #19B6E9;
+    
+}
+
+ul li:nth-child(6){
+    border-top:0.5em solid #E84C8B;
+    
+}
+
+/* ASIDE */
+#related{
+    background-color: #2A2F33;
+    color: white;
+    padding: 1em 1em;
+}
+
+#related a{
+    color:white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* SECTION */
+#news article{
+    background-color: white;
+    margin-top: 1em;
+}
+
+#news article p::first-letter{ 
+    font-size: 2em;
+}
+
+#news article header{
+    background-color: transparent;
+    position: relative;
+    top: 8em;
+    width: 14em;
+}
+
+#news article header h1 a{
+    color:white;
+    font-size: large;
+    text-shadow: 0.2em 0.2em 0.2em #2A2F33;
+}
+
+#news article p{
+    padding:0 0.5em;
+}
+
+#news footer{
+    background-color: #E1493E;
+    padding:1em;
+    color:white;
+}
+
+
+#news footer a{
+    color:white;
+}
+
+.comments, .tags, .date {
+    display: flex;
+    float: right;
+    padding: 0 0.5em;
+
+} 
+/* FOOTER */
+footer{
+    background-color: #2A2F33;
+    color: white;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+/* 
+• Como usar seletores CSS para selecionar partes específicas de um arquivo HTML para
+estilização?
+• Como aplicar estilo básico a elementos HTML?
+• Como importar fontes para que possamos usar mais do que as fontes seguras para a web?
+• Como usar pseudo-classes para selecionar elementos com base em um estado de elemento?
+• Como ocultar elementos usando CSS? 
+*/
+ 
